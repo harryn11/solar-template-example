@@ -50,7 +50,7 @@ const HRS = () => {
                     <div className="sticky top-40 space-y-8">
                         <div className="rounded-[3rem] overflow-hidden border border-primary/20 aspect-[4/5] bg-dark relative">
                             <img
-                                src="https://images.unsplash.com/photo-1581092921461-7d63503b1285?q=80&w=1024&auto=format&fit=crop"
+                                src="https://images.unsplash.com/photo-1581094288338-2314dddb7ec4?q=80&w=1024&auto=format&fit=crop"
                                 alt="Heat Recovery Installation"
                                 className="w-full h-full object-cover opacity-80"
                             />

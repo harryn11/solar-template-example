@@ -236,7 +236,7 @@ const Home = () => {
 
                         <Link to="/services/battery" className="flex flex-col gap-6 group">
                             <div className="overflow-hidden rounded-3xl h-48 relative border border-primary/20 bg-dark">
-                                <img src="https://images.unsplash.com/photo-1594818821932-920a50d1ece1?q=80&w=1024&auto=format&fit=crop" alt="Battery Storage" className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-700" />
+                                <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?q=80&w=1024&auto=format&fit=crop" alt="Battery Storage" className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-700" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-dark/90 to-transparent"></div>
                             </div>
                             <div>
@@ -258,7 +258,7 @@ const Home = () => {
 
                         <Link to="/services/hrs" className="flex flex-col gap-6 group">
                             <div className="overflow-hidden rounded-3xl h-48 relative border border-primary/20 bg-dark">
-                                <img src="https://images.unsplash.com/photo-1581092921461-7d63503b1285?q=80&w=1024&auto=format&fit=crop" alt="Heat Recovery" className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-700" />
+                                <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ec4?q=80&w=1024&auto=format&fit=crop" alt="Heat Recovery" className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-700" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-dark/90 to-transparent"></div>
                             </div>
                             <div>

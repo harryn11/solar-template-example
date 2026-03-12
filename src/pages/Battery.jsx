@@ -53,7 +53,7 @@ const Battery = () => {
                     <div className="sticky top-40 space-y-8">
                         <div className="rounded-[3rem] overflow-hidden border border-primary/20 aspect-[4/5] bg-dark relative">
                             <img
-                                src="https://images.unsplash.com/photo-1594818821932-920a50d1ece1?q=80&w=1024&auto=format&fit=crop"
+                                src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?q=80&w=1024&auto=format&fit=crop"
                                 alt="Battery Storage System"
                                 className="w-full h-full object-cover opacity-80"
                             />
