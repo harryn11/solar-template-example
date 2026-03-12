@@ -2,6 +2,25 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
+const Logo = ({ useWhiteTheme, className = "" }) => (
+    <div className={`flex items-center gap-2 group transition-all duration-500 hover:scale-105 ${className}`}>
+        <div className={`w-8 h-8 rounded-lg flex items-center justify-center font-heading font-black text-xl transition-all duration-500 ${
+            useWhiteTheme 
+            ? 'bg-white text-dark shadow-[0_0_15px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_20px_rgba(255,255,255,0.6)]' 
+            : 'bg-primary text-white shadow-lg group-hover:rotate-6'
+        }`}>
+            S
+        </div>
+        <span className={`font-heading font-bold text-xl tracking-tighter transition-all duration-500 ${
+            useWhiteTheme 
+            ? 'text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)]' 
+            : 'text-primary'
+        }`}>
+            Solar<span className="text-accent italic font-drama font-normal ml-1">Pro</span>
+        </span>
+    </div>
+);
+
 export const NoiseOverlay = () => (
     <svg className="noise-overlay" xmlns="http://www.w3.org/2000/svg">
         <filter id="noiseFilter">
@@ -42,14 +61,7 @@ export const Navbar = () => {
             : `bg-transparent ${useWhiteTheme ? 'text-white' : 'text-primary'}`
             }`}>
             <Link to="/" className="flex items-center">
-                <img
-                    src="/logo.png"
-                    alt="Solar Pro"
-                    className={`h-8 object-contain transition-all duration-500 ${useWhiteTheme
-                        ? 'brightness-0 invert drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)]'
-                        : 'brightness-100 drop-shadow-sm'
-                        }`}
-                />
+                <Logo useWhiteTheme={useWhiteTheme} />
             </Link>
 
             <div className="hidden md:flex items-center gap-8">
@@ -125,7 +137,7 @@ export const Footer = () => (
                 <div className="lg:col-span-2">
                     <div className="mb-6">
                         <Link to="/">
-                            <img src="/logo.png" alt="Solar Pro" className="h-10 object-contain drop-shadow-md bg-white/10 p-2 rounded-xl" />
+                            <Logo useWhiteTheme={false} className="scale-125 origin-left" />
                         </Link>
                     </div>
                     <p className="text-background/50 max-w-sm mb-8">
