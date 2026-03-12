@@ -44,7 +44,7 @@ export const Navbar = () => {
             <Link to="/" className="flex items-center">
                 <img
                     src="/logo.png"
-                    alt="Your Brand"
+                    alt="Solar Pro"
                     className={`h-8 object-contain transition-all duration-500 ${useWhiteTheme
                         ? 'brightness-0 invert drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)]'
                         : 'brightness-100 drop-shadow-sm'
@@ -125,7 +125,7 @@ export const Footer = () => (
                 <div className="lg:col-span-2">
                     <div className="mb-6">
                         <Link to="/">
-                            <img src="/logo.png" alt="Your Brand" className="h-10 object-contain drop-shadow-md bg-white/10 p-2 rounded-xl" />
+                            <img src="/logo.png" alt="Solar Pro" className="h-10 object-contain drop-shadow-md bg-white/10 p-2 rounded-xl" />
                         </Link>
                     </div>
                     <p className="text-background/50 max-w-sm mb-8">
@@ -157,7 +157,7 @@ export const Footer = () => (
             </div>
 
             <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-background/40 font-mono">
-                <p>© 2026 Your Brand Name Ltd. All rights reserved.</p>
+                <p>© 2026 Solar Pro Ltd. All rights reserved.</p>
                 <div className="flex gap-6">
                     <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
                     <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
